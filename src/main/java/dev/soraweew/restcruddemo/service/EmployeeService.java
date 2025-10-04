@@ -1,10 +1,10 @@
-package dev.soraweew.restcruddemo.dao;
+package dev.soraweew.restcruddemo.service;
 
 import dev.soraweew.restcruddemo.entity.Employee;
 
 import java.util.List;
 
-public interface EmployeeDAO {
+public interface EmployeeService {
 
     List<Employee> findAll();
 
